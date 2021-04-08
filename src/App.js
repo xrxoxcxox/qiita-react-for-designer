@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+const firstName = "John"
+const lastName = "Doe"
+const fullName = `${firstName} ${lastName}`
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, {fullName}
         </p>
         <a
           className="App-link"
