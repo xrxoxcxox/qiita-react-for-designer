@@ -50,3 +50,20 @@
 .link {
   color: white;
 }
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button--ok {
+  background-color: #61dafb;
+}
+
+.button--ng {
+  background-color: #b00020;
+  color: white;
+}
