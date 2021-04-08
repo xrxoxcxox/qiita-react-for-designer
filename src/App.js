@@ -57,7 +57,7 @@ function About() {
   return (
     <>
       <h2>About</h2>
-      <SomeComponent />
+      <SomeComponent text="about" />
     </>
   );
 }
@@ -66,7 +66,7 @@ function Users() {
   return (
     <>
       <h2>Users</h2>
-      <SomeComponent />
+      <SomeComponent text="users" />
     </>
   );
 }
